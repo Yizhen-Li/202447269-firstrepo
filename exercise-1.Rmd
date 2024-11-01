@@ -12,3 +12,8 @@ transform_data_v2 <- function(data) {
 
 ```
 
+# Rename
+transform_data_v2 <- function(data_new) {
+  transformed_data <- data_new * 2  # 示例操作
+  return(transformed_data)
+}

@@ -3,3 +3,12 @@
 a<- 2+2+2
 print(a)
 ```
+
+```{r}
+transform_data_v2 <- function(data) {
+  transformed_data <- data * 2
+  return(transformed_data)
+}
+
+```
+
